@@ -1,0 +1,12 @@
+{
+  "-6728a527": {
+    "collection": "product",
+    "query": {
+      "offset": 0,
+      "limit": 1
+    }
+  },
+  "2f67365c": {
+    "collection": "product"
+  }
+}

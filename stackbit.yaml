@@ -1,0 +1,23 @@
+stackbitVersion: "~0.3.0"
+ssgName: "custom"
+buildCommand: "npx @11ty/eleventy"
+publishDir: "public"
+staticDir: "static"
+uploadDir: "images"
+pagesDir: "site"
+metadata:
+  title: "emme beauty b9bb88c7f78798fe4ccf2a7332e"
+  description: "Theme created in Webflow and converted with Udesly"
+models:
+  product:
+    type: "page"
+    label: "Products"
+    urlPath: "/product/{slug}"
+  category:
+    type: "page"
+    label: "Categories"
+    urlPath: "/category/{slug}"
+  sku:
+    type: "page"
+    label: "SKUs"
+    urlPath: "/sku/{slug}"
